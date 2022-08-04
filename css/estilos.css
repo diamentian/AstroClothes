@@ -4,12 +4,8 @@
   box-sizing: border-box;
 }
 
-
 .colorfondo {
   background-color: black;
-}
-.headerfondo {
-  background-color: #111111;
 }
 
 .tituloletra {
@@ -17,6 +13,7 @@
   margin-bottom: 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 .letralistas {
   text-decoration: none;
   color: white;
@@ -26,37 +23,20 @@
   align-items: center;
   list-style: none;
 }
+
 .letrasection {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
 }
 
-li {
-  position: relative;
-  font-size: 20px;
-  margin: 8px 0;
+.liwhite {
+  color: #fff;
 }
-ul ul {
-  position: absolute;
-  display: none;
-}
-ul ul li {
-  display: block;
-}
-ul li:hover ul {
-  display: block;
-}
+
 .letrablanca {
   color: rgb(255, 255, 255);
 }
-ul li a {
-  text-decoration: none;
-  color: white;
-}
-.liwhite{
-  color: #fff;
 
-}
 a:hover {
   background-color: red;
 }
@@ -66,10 +46,12 @@ a:hover {
   margin: 10px 10px 10px 10px;
   padding: 5px;
   min-height: 100vh;
-
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 30px;
+}
+.boxsection img {
+  width: 100%;
 }
 
 .sectHome {
@@ -77,65 +59,54 @@ a:hover {
   justify-content: space-evenly;
   align-items: center;
 }
-
-.boxsection img {
-  width: 100%;
-}
-
 .sectHome p {
   max-width: 50%;
 }
 
-
-.sectionaboutus{
+.sectionaboutus {
   display: flex;
-  
 }
-.sectionaboutus img{
+.sectionaboutus img {
   max-width: 100%;
 }
-.imglaplata{
 
+.imglaplata {
   border-radius: 10px;
   width: 1000px;
-  
-
 }
-.imgandreani{
+
+.imgandreani {
   width: 500px;
-  
 }
-.imgmp{
 
+.imgmp {
   width: 500px;
-  
-
 }
-.imgtarjetas{
 
+.imgtarjetas {
   width: 500px;
-  ;
 }
 
-.div1{
+.div1 {
   margin: 50px 50px 50px 50px;
 }
+
 .div2 {
-  
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   margin-top: 50px;
   margin-left: 50px;
   padding-right: 10px;
 }
-.envios-grid{
+
+.envios-grid {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin: 40px 0;
 }
-.envios-grid img{
+.envios-grid img {
   max-width: 300px;
 }
 
@@ -159,111 +130,103 @@ form div {
   padding: 10px;
   margin-bottom: 10px;
   width: 300px;
-  
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-
 .product img {
   width: 100%;
   transition: all 0.7s ease;
 }
-
-.product img:hover{
+.product img:hover {
   transform: scale(1.1);
 }
-
-
 .product h4 {
   font-size: 2rem;
 }
-
 .product h6 {
   font-size: 1.2rem;
 }
 
-.form-grid{
+.form-grid {
   margin: auto;
   max-width: 400px;
   margin-top: 30px;
   display: grid;
-  grid-template-areas: "input1 input2"
-                      "input3 input4"
-                      "comentarios comentarios"
-                      "acepto enviar";
+  grid-template-areas: "input1 input2" "input3 input4" "comentarios comentarios" "acepto enviar";
   justify-items: center;
   align-items: center;
   font-size: 25px;
 }
 
-.input1{
-  grid-area: input1 ;
-  width: 100%;
-}
-.input2{
-  grid-area: input2 ;
-  width: 100%;
-}
-.input3{
-  grid-area: input3 ;
-  width: 100%;
-}
-.input4{
-  grid-area: input4 ;
+.input1 {
+  grid-area: input1;
   width: 100%;
 }
 
-.comentarios{
-  grid-area: comentarios ;
+.input2 {
+  grid-area: input2;
   width: 100%;
 }
-.acepto{
-  grid-area: acepto ;
-}
-.enviar{
-  grid-area: enviar ;
-  
 
+.input3 {
+  grid-area: input3;
+  width: 100%;
 }
 
-.boton{
-  font-family: 'Courier New', Courier, monospace;
+.input4 {
+  grid-area: input4;
+  width: 100%;
+}
+
+.comentarios {
+  grid-area: comentarios;
+  width: 100%;
+}
+
+.acepto {
+  grid-area: acepto;
+}
+
+.enviar {
+  grid-area: enviar;
+}
+
+.boton {
+  font-family: "Courier New", Courier, monospace;
   font-size: 1.5rem;
   background-color: rgb(116, 0, 110);
   border: 0;
   border-radius: 5px;
   color: #fff;
   padding: 15px;
-
 }
-.textarea{
+
+.textarea {
   width: 100%;
   height: 100px;
   resize: none;
 }
 
 footer {
-    color: #fff;
-    font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 20px;
-    min-height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+  min-height: 200px;
 }
-
-.footer-container  p {
-    font-size: 1.5rem;
+.footer-container p {
+  font-size: 1.5rem;
 }
-
 .footer-container i {
-    font-size: 2rem;
-    margin: 0 10px;
+  font-size: 2rem;
+  margin: 0 10px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -271,58 +234,47 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
 @media screen and (max-width: 768px) {
   .product-container {
     grid-template-columns: repeat(1, 1fr);
   }
-
   .sectHome {
     flex-direction: column;
   }
   .sectHome p {
     max-width: 100%;
   }
-
   .sectHome:nth-child(2) img {
     order: 1;
   }
-
   .sectHome:nth-child(2) p {
     order: 2;
   }
 }
-
 @media screen and (max-width: 500px) {
   .letralistas {
     flex-direction: column;
   }
-
   .footer-container {
     flex-direction: column;
   }
 }
-
-@media screen and (max-width: 1010px  ) {
-  .sectionaboutus{
+@media screen and (max-width: 1010px) {
+  .sectionaboutus {
     flex-direction: column;
-
   }
-  .sectionaboutus .div1{
-    order:2;
+  .sectionaboutus .div1 {
+    order: 2;
   }
-  .sectionaboutus .div2{
-    order:1;
+  .sectionaboutus .div2 {
+    order: 1;
   }
 }
 @media screen and (max-width: 1100px) {
-  .envios-grid{
-    grid-template-columns: repeat(1,1fr);
+  .envios-grid {
+    grid-template-columns: repeat(1, 1fr);
     text-align: center;
   }
-  
 }
 
-
-
-
+/*# sourceMappingURL=estilos.css.map */
